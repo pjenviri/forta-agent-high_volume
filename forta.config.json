@@ -1,0 +1,15 @@
+{
+  "agentId": "polygon",                  /* Unique agent identifier e.g. my-new-agent */
+  "version": "0.0.1",                    /* Agent version */
+  "documentation": "README.md",
+  "jsonRpcUrl": "https://mainnet.infura.io/v3/17ae89c3583441e6bce1c81ce21e84f6",                      /* JSON-RPC url for running agent during development e.g. wss://mainnet.infura.io/ws/v3/YOUR_API_KEY */
+  // "traceRpcUrl": "",                     /* JSON-RPC url for retrieving trace data during development */
+  // "imageRepositoryUrl": "",              /* Container image repository for publishing agent images */
+  // "imageRepositoryUsername": "",         /* Image repository username for authentication, if required */
+  // "imageRepositoryPassword": "",         /* Image repository password for authentication, if required */
+  // "agentRegistryContractAddress": "",    /* Contract address for agent registry */
+  // "agentRegistryJsonRpcUrl": "",         /* JSON-RPC url of the network hosting agent registry contract */
+  "ipfsGatewayUrl": "https://ipfs.infura.io:5001",                  /* IPFS gateway API for publishing agent manifest e.g. https://ipfs.infura.io:5001 */
+  "ipfsGatewayAuth": "Basic Base64(17ae89c3583441e6bce1c81ce21e84f6:0cc47e2724e8434e8d56ba47c88f7b91)"                 /* Authorization header, if IPFS gateway requires it */
+  // "debug": true                          /* Debug flag for additional console logging */
+}
